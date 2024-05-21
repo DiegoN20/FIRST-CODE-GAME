@@ -3386,7 +3386,18 @@
             }
           ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
           "animations": [
             {
               "name": "Iniciar",
@@ -3522,7 +3533,7 @@
               "parameters": [
                 "Boton_Iniciar",
                 "Animation",
-                "=",
+                "yes",
                 "\"Click\""
               ]
             }
@@ -3567,6 +3578,32 @@
                 "Animation",
                 "=",
                 "\"Iniciar\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Boton_Iniciar",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "Boton_Iniciar",
+                "\"Laberinto 1\""
               ]
             }
           ]
