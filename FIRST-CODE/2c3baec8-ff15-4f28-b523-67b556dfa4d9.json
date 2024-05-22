@@ -1945,6 +1945,14 @@
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper",
+          "TopDownMovement": "TopDownMovement",
+          "ControllerIdentifier": 1,
+          "JoystickIdentifier": "Primary",
+          "StickMode": "8 Directions"
         }
       ],
       "animations": [
@@ -3463,7 +3471,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998329983,
+        "zoomFactor": 0.5653158055126316,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3481,7 +3489,7 @@
           "width": 100,
           "x": 46,
           "y": 1139,
-          "zOrder": 1,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3974,7 +3982,7 @@
           "width": 1007,
           "x": -155,
           "y": -262,
-          "zOrder": -5,
+          "zOrder": -7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4007,7 +4015,7 @@
           "width": 180,
           "x": 44,
           "y": 637,
-          "zOrder": 12,
+          "zOrder": -6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4293,8 +4301,8 @@
           "name": "TransparentLightJoystick",
           "persistentUuid": "75f264b1-aeaa-47b1-a96f-ce0372f2ce99",
           "width": 0,
-          "x": 572,
-          "y": 1127,
+          "x": 603,
+          "y": 1152,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -5479,6 +5487,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -29256,7 +29268,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998329986,
+        "zoomFactor": 0.40575189059438316,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -33003,6 +33015,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -33459,6 +33476,14 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "ButtonAnimationName",
+          "type": "ButtonStates::ButtonAnimationName"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -33481,6 +33506,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
