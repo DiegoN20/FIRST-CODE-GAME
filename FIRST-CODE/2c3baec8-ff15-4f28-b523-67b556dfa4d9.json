@@ -19,13 +19,13 @@
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "FIRST-CODE GAME",
     "description": "",
     "author": "",
     "windowWidth": 720,
     "windowHeight": 1280,
-    "latestCompilationDirectory": "C:\\Users\\Diegu\\OneDrive\\Documentos\\juego",
+    "latestCompilationDirectory": "C:\\Users\\Luis Castro\\Desktop\\FIRST-CODE-GAME-main",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -142,15 +142,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite9",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "",
         "smoothed": false,
         "userAdded": true
       },
@@ -1945,6 +1936,14 @@
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper",
+          "TopDownMovement": "TopDownMovement",
+          "ControllerIdentifier": 1,
+          "JoystickIdentifier": "Primary",
+          "StickMode": "8 Directions"
         }
       ],
       "animations": [
@@ -3427,6 +3426,67 @@
           ]
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Limite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite28",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3434,6 +3494,9 @@
     "children": [
       {
         "objectName": "TransparentLightJoystick"
+      },
+      {
+        "objectName": "Limite"
       },
       {
         "objectName": "SOLDADO"
@@ -3463,7 +3526,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998329983,
+        "zoomFactor": 0.5653158055126316,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3481,7 +3544,7 @@
           "width": 100,
           "x": 46,
           "y": 1139,
-          "zOrder": 1,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3567,23 +3630,6 @@
           "x": 622,
           "y": 64,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nivel",
-          "persistentUuid": "eb4cf67c-7e77-458b-80e0-2c234b435a3c",
-          "width": 41,
-          "x": 182,
-          "y": 1140,
-          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3974,7 +4020,7 @@
           "width": 1007,
           "x": -155,
           "y": -262,
-          "zOrder": -5,
+          "zOrder": -7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4007,7 +4053,7 @@
           "width": 180,
           "x": 44,
           "y": 637,
-          "zOrder": 12,
+          "zOrder": -6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4293,76 +4339,83 @@
           "name": "TransparentLightJoystick",
           "persistentUuid": "75f264b1-aeaa-47b1-a96f-ce0372f2ce99",
           "width": 0,
-          "x": 572,
-          "y": 1127,
+          "x": 483,
+          "y": 1133,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 955,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "e261cc52-5646-4156-b5d9-b6706077b468",
+          "width": 29,
+          "x": 418,
+          "y": 43,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 955,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "d01b7729-96da-4c2a-b788-b4a822e7fd45",
+          "width": 29,
+          "x": 244,
+          "y": 291,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 30,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "a05f712c-c3a6-40d7-8aa6-78ca293d067f",
+          "width": 113,
+          "x": 453,
+          "y": 368,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 30,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "7e9b9c6c-8a8d-4ae4-9b75-5a47217ee53c",
+          "width": 113,
+          "x": 545,
+          "y": 741,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Limite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite28",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
@@ -5283,9 +5336,6 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "Limite"
-          },
-          {
             "objectName": "Nivel"
           },
           {
@@ -5338,16 +5388,6 @@
           "conditions": [
             {
               "type": {
-                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
-              },
-              "parameters": [
-                "TransparentLightJoystick",
-                "\"Up\"",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "TopDownMovementBehavior::IsMoving"
               },
               "parameters": [
@@ -5357,17 +5397,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "SOLDADO",
-                "Animation",
-                "=",
-                "1+round(SOLDADO.TopDownMovement::Angle()/90)"
-              ]
-            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -5500,6 +5529,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -5601,23 +5634,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nivel",
-          "persistentUuid": "1070800d-96c2-42f0-8a78-0c5a94e50d31",
-          "width": 32,
-          "x": 504,
-          "y": 80,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 87,
           "keepRatio": true,
           "layer": "",
@@ -5626,7 +5642,7 @@
           "width": 80,
           "x": 557,
           "y": 45,
-          "zOrder": 12,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6955,6 +6971,91 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "689a0c77-c695-424e-ad3c-f3a6ac3aa3b9",
+          "width": 536,
+          "x": 149,
+          "y": 149,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "3ea66368-94c5-4d38-b17e-f50d4001f8c0",
+          "width": 536,
+          "x": 39,
+          "y": 364,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "04c38d27-5393-43a8-b368-552813d3be4c",
+          "width": 536,
+          "x": 139,
+          "y": 950,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 425,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "b2f0117d-84be-4b09-b2c9-b4603eed1a5b",
+          "width": 20,
+          "x": 548,
+          "y": 378,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 425,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "b9b89e63-8177-4a0c-85ea-bc3788745ea0",
+          "width": 20,
+          "x": 278,
+          "y": 505,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -8032,6 +8133,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -8073,7 +8178,7 @@
           "width": 100,
           "x": 70,
           "y": 1136,
-          "zOrder": 18,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8159,23 +8264,6 @@
           "x": 587,
           "y": 129,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nivel",
-          "persistentUuid": "eb4cf67c-7e77-458b-80e0-2c234b435a3c",
-          "width": 41,
-          "x": 182,
-          "y": 1140,
-          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9040,7 +9128,7 @@
           "name": "Maderos_1",
           "persistentUuid": "a9d95187-45c0-48a0-84f4-5b84a234b004",
           "width": 110,
-          "x": 113,
+          "x": 114,
           "y": 944,
           "zOrder": 20,
           "numberProperties": [],
@@ -9756,6 +9844,142 @@
           "x": 599,
           "y": 1166,
           "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 991,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "772336d3-7295-455c-9ace-ccc96841c4b1",
+          "width": 14,
+          "x": 169,
+          "y": 235,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 337,
+          "customSize": true,
+          "depth": 1,
+          "height": 140,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "c4004079-238c-4bd0-be68-1f090aef2986",
+          "width": 7,
+          "x": 193,
+          "y": 170,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 337,
+          "customSize": true,
+          "depth": 2,
+          "height": 261,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "b1cdd76a-7f0a-40c8-ade6-80d2813c650b",
+          "width": 13,
+          "x": 340,
+          "y": 51,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 551,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "81463e85-dd34-4e86-a21f-331eb90252c4",
+          "width": 14,
+          "x": 331,
+          "y": 468,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 29,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "cc120f30-f0bd-44e7-988f-e65e50479f8e",
+          "width": 147,
+          "x": 363,
+          "y": 1187,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 29,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "1af825ec-967f-4ca8-911d-7fbe60da2e49",
+          "width": 147,
+          "x": 354,
+          "y": 1035,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 284,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "b38a3813-cbcb-48b7-aa52-2e4f781fce59",
+          "width": 226,
+          "x": 433,
+          "y": 649,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 255,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "519e06b3-2ed7-4799-bfe8-22910d941c6d",
+          "width": 243,
+          "x": 339,
+          "y": 291,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10811,6 +11035,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -10852,7 +11080,7 @@
           "width": 100,
           "x": 46,
           "y": 1139,
-          "zOrder": 12,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10937,23 +11165,6 @@
           "width": 41,
           "x": 587,
           "y": 129,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nivel",
-          "persistentUuid": "eb4cf67c-7e77-458b-80e0-2c234b435a3c",
-          "width": 41,
-          "x": 182,
-          "y": 1140,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -11787,6 +11998,91 @@
           "x": 583,
           "y": 1137,
           "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 30,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "8b18cf14-0561-4043-a77d-7623aed95774",
+          "width": 278,
+          "x": 42,
+          "y": 234,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 30,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "97485d15-8ed8-4903-b4aa-b8c804367cbb",
+          "width": 464,
+          "x": 210,
+          "y": 461,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 30,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "0b2f189f-bb4d-41a4-bcf3-fd065551c692",
+          "width": 464,
+          "x": 60,
+          "y": 720,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 281,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "202e6e4a-349f-411c-abfd-bd9620fdeb4b",
+          "width": 20,
+          "x": 496,
+          "y": 751,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 281,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "7959c6b7-0bb0-446e-ae75-309b47c5598c",
+          "width": 20,
+          "x": 264,
+          "y": 953,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12970,6 +13266,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -13011,7 +13311,7 @@
           "width": 100,
           "x": 46,
           "y": 1139,
-          "zOrder": 11,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13097,23 +13397,6 @@
           "x": 587,
           "y": 129,
           "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nivel",
-          "persistentUuid": "eb4cf67c-7e77-458b-80e0-2c234b435a3c",
-          "width": 41,
-          "x": 182,
-          "y": 1140,
-          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15768,6 +16051,176 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 354,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "10e268f9-2dca-4169-9104-90a81d2a25b6",
+          "width": 21,
+          "x": 285,
+          "y": 880,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 229,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "763c8e59-1edf-47c0-9c74-5675567b8b90",
+          "width": 21,
+          "x": 487,
+          "y": 917,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 186,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "025e9a87-d626-4551-8735-04b641a1ec0b",
+          "width": 21,
+          "x": 434,
+          "y": 755,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 287,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "ca15d5b8-2c9f-413a-841e-b07b97db8aca",
+          "width": 21,
+          "x": 457,
+          "y": 311,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 163,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "27a08777-1abc-467c-80a9-b3d695a3dea2",
+          "width": 21,
+          "x": 302,
+          "y": 40,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "c35c9592-28be-4bb3-a55f-55c4c8606ef4",
+          "width": 397,
+          "x": 37,
+          "y": 750,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "2ef57d8b-9c80-4de0-8e8a-5ceb0cc38c30",
+          "width": 187,
+          "x": 65,
+          "y": 522,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "43582838-4abf-4834-8892-08ca08e08989",
+          "width": 218,
+          "x": 249,
+          "y": 307,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "a8d5eeb5-fa39-43bf-9daf-2db5921b833e",
+          "width": 221,
+          "x": 467,
+          "y": 580,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 29,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "d59814f6-739f-4268-89e0-0e997ea146fb",
+          "width": 125,
+          "x": 434,
+          "y": 917,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -17012,6 +17465,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -17053,7 +17510,7 @@
           "width": 100,
           "x": 46,
           "y": 1139,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17139,23 +17596,6 @@
           "x": 587,
           "y": 129,
           "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nivel",
-          "persistentUuid": "eb4cf67c-7e77-458b-80e0-2c234b435a3c",
-          "width": 41,
-          "x": 182,
-          "y": 1140,
-          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18331,6 +18771,261 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 327,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "2c8151e2-5ca1-4858-9e75-8cca4e3829ae",
+          "width": 14,
+          "x": 155,
+          "y": 156,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 776,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "837421c8-8dd5-4bcd-bc26-b37ab990f338",
+          "width": 14,
+          "x": 361,
+          "y": 79,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 716,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "74209264-be5a-4222-952b-90648f7b8ed9",
+          "width": 14,
+          "x": 240,
+          "y": 490,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "562a409e-37f9-4cd9-a388-cd798654a606",
+          "width": 108,
+          "x": 239,
+          "y": 317,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "dd0e3b06-1fde-4c03-aac8-e5c9c2dc66fa",
+          "width": 108,
+          "x": 397,
+          "y": 292,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "73c2514e-c1e2-4419-bb14-afea7768e0ed",
+          "width": 218,
+          "x": 455,
+          "y": 456,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "3d84b5b0-b84e-4267-9617-241af68eb72e",
+          "width": 218,
+          "x": 535,
+          "y": 607,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "26939228-f8fd-4ada-877c-1cd77e09e123",
+          "width": 218,
+          "x": 361,
+          "y": 864,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "94a0b872-cf4e-4668-b391-e6c709d987e0",
+          "width": 110,
+          "x": 369,
+          "y": 710,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "33209e55-b634-4d46-9f8a-1dfb8d90c960",
+          "width": 110,
+          "x": 371,
+          "y": 1046,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "af3c7df4-1cd5-4e04-a0bd-19e646c034dc",
+          "width": 110,
+          "x": 61,
+          "y": 982,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "7766fe80-6c7e-48aa-b280-737d38bcce62",
+          "width": 110,
+          "x": 133,
+          "y": 814,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "87327ad9-312d-439c-98b8-cce72d24d883",
+          "width": 128,
+          "x": 60,
+          "y": 599,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "5eadb7b0-dcd8-4472-a5df-2d4f52ae7421",
+          "width": 128,
+          "x": 147,
+          "y": 487,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 175,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "52d7b5c6-cc06-42c9-b86b-6be66b5ac4a6",
+          "width": 14,
+          "x": 433,
+          "y": 877,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -19383,6 +20078,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -19424,7 +20123,7 @@
           "width": 100,
           "x": 46,
           "y": 1139,
-          "zOrder": 11,
+          "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19510,23 +20209,6 @@
           "x": 556,
           "y": 436,
           "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nivel",
-          "persistentUuid": "eb4cf67c-7e77-458b-80e0-2c234b435a3c",
-          "width": 41,
-          "x": 182,
-          "y": 1140,
-          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22946,6 +23628,295 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 78,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "3fd00e24-c011-47be-af37-f4589b73fe06",
+          "width": 22,
+          "x": 853,
+          "y": 344,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "99324d4d-f814-4241-92cf-b1d2495c067e",
+          "width": 393,
+          "x": 49,
+          "y": 745,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "cc8160fa-fdd7-4eba-ae35-4453feda4a0e",
+          "width": 281,
+          "x": 186,
+          "y": 645,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "f1a17bc9-2670-4b01-958c-f6057a5f6650",
+          "width": 327,
+          "x": 35,
+          "y": 516,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 33,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "ed52a52c-fec0-4c5e-81ae-567a7d6cd7e5",
+          "width": 281,
+          "x": 178,
+          "y": 306,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 29,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "0db492af-fe35-4a0c-bf0b-44fbe66b94eb",
+          "width": 226,
+          "x": 457,
+          "y": 575,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 34,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "61f9034e-362e-49e3-9ef6-547ea3ad6db6",
+          "width": 142,
+          "x": 423,
+          "y": 912,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 26,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "c3324c0c-c9cb-454c-a250-d60fe53915ea",
+          "width": 169,
+          "x": 145,
+          "y": 884,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 158,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "cf9c09ed-ce71-42ef-a974-65ba5e53b350",
+          "width": 25,
+          "x": 300,
+          "y": 35,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 325,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "8cc181cc-15df-4d8d-81e2-3a748d53e50f",
+          "width": 19,
+          "x": 449,
+          "y": 316,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 141,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "1208329f-ce6e-4d45-bdff-6e6437674298",
+          "width": 25,
+          "x": 558,
+          "y": 597,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 184,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "75e0c735-fbda-456d-b50d-0be876f561df",
+          "width": 39,
+          "x": 423,
+          "y": 750,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 217,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "34535163-8178-41d6-ac1b-c1afaf17c329",
+          "width": 33,
+          "x": 479,
+          "y": 912,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 314,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "021f0211-e5b5-4bd5-9b9b-db7d20a8c5ea",
+          "width": 26,
+          "x": 285,
+          "y": 902,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 26,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "ec4434b3-2411-44ee-bb8f-b2a6bc41d153",
+          "width": 103,
+          "x": 68,
+          "y": 1047,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 141,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "3315fd65-40c3-471f-85f1-3270ebffcab7",
+          "width": 25,
+          "x": 172,
+          "y": 281,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "d9e984de-2d2a-40e9-b525-6cbcc5331516",
+          "width": 135,
+          "x": 549,
+          "y": 811,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -24190,6 +25161,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -24231,7 +25206,7 @@
           "width": 100,
           "x": 46,
           "y": 1139,
-          "zOrder": 1,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24317,23 +25292,6 @@
           "x": 72,
           "y": 108,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nivel",
-          "persistentUuid": "eb4cf67c-7e77-458b-80e0-2c234b435a3c",
-          "width": 41,
-          "x": 182,
-          "y": 1140,
-          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25250,6 +26208,244 @@
           "x": 573,
           "y": 1107,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 37,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "8278a310-fe8f-4750-a66d-0f0f633d7cf2",
+          "width": 501,
+          "x": 77,
+          "y": 955,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 37,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "d15742d3-2580-49a9-abd7-0905b9cd2947",
+          "width": 501,
+          "x": 174,
+          "y": 549,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 37,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "12fe09c6-d268-482b-bc01-2b1664558607",
+          "width": 501,
+          "x": 46,
+          "y": 290,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 142,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "dea6375b-eeb6-45fd-adb2-fb6a1f88d829",
+          "width": 41,
+          "x": 342,
+          "y": 49,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 142,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "5c0c26c2-bacc-4c29-85ab-607da179ab66",
+          "width": 41,
+          "x": 482,
+          "y": 161,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 142,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "75c9c36e-cc46-4117-8786-e7b0fd93b143",
+          "width": 41,
+          "x": 209,
+          "y": 157,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 142,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "424a87b9-bddd-4f8b-81d2-ea22dba65fd7",
+          "width": 41,
+          "x": 479,
+          "y": 422,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 142,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "6615cc12-f3c6-462e-979a-08ab968ae538",
+          "width": 41,
+          "x": 353,
+          "y": 292,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 257,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "3ce754d7-2110-4db5-9f88-dbd10da36f0b",
+          "width": 34,
+          "x": 124,
+          "y": 433,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 275,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "92971859-5ec2-4fad-9f24-6720476cd8bc",
+          "width": 30,
+          "x": 375,
+          "y": 585,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 123,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "4dcded4b-cf73-450e-a72f-b5723e94bec8",
+          "width": 34,
+          "x": 524,
+          "y": 600,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 129,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "155f27e2-9d41-4736-a322-9fa1503ccf64",
+          "width": 34,
+          "x": 517,
+          "y": 832,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 123,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "98621cd5-e98e-4402-b5ec-94d9bdb9eaae",
+          "width": 34,
+          "x": 430,
+          "y": 996,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 134,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "925846aa-ab2e-4dc1-966d-68fd0ac3e3ba",
+          "width": 34,
+          "x": 293,
+          "y": 1094,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26433,6 +27629,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -26534,23 +27734,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nivel",
-          "persistentUuid": "1070800d-96c2-42f0-8a78-0c5a94e50d31",
-          "width": 32,
-          "x": 504,
-          "y": 80,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 87,
           "keepRatio": true,
           "layer": "",
@@ -26559,7 +27742,7 @@
           "width": 80,
           "x": 557,
           "y": 45,
-          "zOrder": 12,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28177,6 +29360,278 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 449,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "a4316993-e77b-4508-b690-ce9fdf8ccd9f",
+          "width": 20,
+          "x": 544,
+          "y": 365,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 449,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "f01e8097-4e00-48a3-8d42-dc085908c750",
+          "width": 20,
+          "x": 275,
+          "y": 499,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 198,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "a5291194-50a7-41cd-a0cb-6254db8a21db",
+          "width": 17,
+          "x": 491,
+          "y": 1035,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 198,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "0a734dd7-f1d8-4192-a4e2-4c2ded7b07c1",
+          "width": 17,
+          "x": 346,
+          "y": 959,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 198,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "a934737b-bc77-410e-88b0-19963cb2f12d",
+          "width": 17,
+          "x": 137,
+          "y": 1041,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 129,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "7f0ff3ca-0a6a-43b4-a813-9f2a215e0056",
+          "width": 21,
+          "x": 399,
+          "y": 696,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 129,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "5db4cfbe-aa75-45df-a884-b0ec34e9aecb",
+          "width": 21,
+          "x": 378,
+          "y": 251,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 129,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "6a0656c0-579d-4f06-9dca-02b69b417547",
+          "width": 21,
+          "x": 555,
+          "y": 157,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 129,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "391c42c1-f695-4d11-b8c5-99e4d3747d59",
+          "width": 21,
+          "x": 200,
+          "y": 159,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "47258df3-f91b-4f5b-bf81-5f0ccc164f2a",
+          "width": 596,
+          "x": 95,
+          "y": 145,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "46f03bbd-94bc-4263-ae39-0fc1fa6f227f",
+          "width": 548,
+          "x": 20,
+          "y": 367,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "b507dcaf-c657-4234-9aa1-6c494c86a318",
+          "width": 192,
+          "x": 294,
+          "y": 505,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "831cfbfd-418e-4f23-a1d0-2e929dd80fb2",
+          "width": 154,
+          "x": 139,
+          "y": 565,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "80065727-282c-4928-be30-1e6c62b2d146",
+          "width": 154,
+          "x": 10,
+          "y": 726,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "f5ea833c-dd8e-4f93-a788-c45e19a487a0",
+          "width": 554,
+          "x": 137,
+          "y": 940,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 22,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "d0bf674b-c739-4ee5-8970-9426d15698f3",
+          "width": 154,
+          "x": 395,
+          "y": 683,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -29254,6 +30709,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -29295,7 +30754,7 @@
           "width": 100,
           "x": 46,
           "y": 1139,
-          "zOrder": 7,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -29398,40 +30857,6 @@
           "x": 534,
           "y": 98,
           "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Nivel",
-          "persistentUuid": "eb4cf67c-7e77-458b-80e0-2c234b435a3c",
-          "width": 41,
-          "x": 182,
-          "y": 1140,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1289,
-          "keepRatio": true,
-          "layer": "",
-          "name": "floor",
-          "persistentUuid": "b2d8cfcb-13a3-4e4f-bb33-7ad7caf6e867",
-          "width": 772,
-          "x": -47,
-          "y": 1,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31468,9 +32893,434 @@
           "name": "TransparentLightJoystick",
           "persistentUuid": "a9d2f45c-922f-4f7a-85fb-236865cb9788",
           "width": 0,
-          "x": 580,
-          "y": 1099,
+          "x": 626,
+          "y": 1132,
           "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 416,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "a8ed4f4e-041a-4b24-9360-b98baaabc0cc",
+          "width": 62,
+          "x": 278,
+          "y": 50,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "97305c37-d4ce-4f05-b375-0fd7d9d80cd2",
+          "width": 67,
+          "x": 244,
+          "y": 586,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "5dfb7ed2-29dc-4cc6-9446-9cd93dc53cf1",
+          "width": 67,
+          "x": 322,
+          "y": 584,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "e09fe253-5b2c-4939-9db5-cc242be2b99b",
+          "width": 67,
+          "x": 411,
+          "y": 586,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "a1460ab8-00cf-4bcd-a8cf-13526a078150",
+          "width": 67,
+          "x": 545,
+          "y": 783,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "6248e592-c383-448b-a914-da9c337e38e2",
+          "width": 67,
+          "x": 612,
+          "y": 1153,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "77d3e754-1dc2-4134-ac17-d5480320832f",
+          "width": 67,
+          "x": 471,
+          "y": 1069,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "42393091-44da-44e0-8d80-a8810f478862",
+          "width": 67,
+          "x": 471,
+          "y": 977,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "7c05fbfd-8ad6-480d-8fc5-a819d72e4dcf",
+          "width": 67,
+          "x": 414,
+          "y": 926,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "f05eba58-b801-4914-a08e-2ca8530c6cb5",
+          "width": 67,
+          "x": 350,
+          "y": 889,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "ee7227e4-fefa-4db5-8519-59d22b251f86",
+          "width": 67,
+          "x": 259,
+          "y": 892,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "7818d637-4cf4-4911-8a38-f23c9fe50648",
+          "width": 67,
+          "x": 37,
+          "y": 889,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "9e176cc6-dfbf-4228-8a1c-cc58bdc32965",
+          "width": 67,
+          "x": 101,
+          "y": 657,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "a2a10874-d8ec-4f21-b0f3-904f66b89fc4",
+          "width": 67,
+          "x": 39,
+          "y": 460,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "30c7bcff-7769-4cf0-9040-31ecba4fed62",
+          "width": 67,
+          "x": 500,
+          "y": 342,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "28fb335f-f742-41fd-b568-dd3836a6fe02",
+          "width": 92,
+          "x": 586,
+          "y": 204,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "7e30366e-30fc-4011-ba49-2e08d121dbd1",
+          "width": 67,
+          "x": 138,
+          "y": 285,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "72d29841-9670-4bad-9d6f-c7ab8d5c4bb9",
+          "width": 138,
+          "x": 490,
+          "y": 527,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 155,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "8d6b1dfd-9318-4f77-8b02-c1965b636ef9",
+          "width": 151,
+          "x": 96,
+          "y": 847,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 113,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "0ed32065-c034-4a90-8c59-f1aa812d7713",
+          "width": 116,
+          "x": 69,
+          "y": 66,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "261ebc00-71f2-45d1-941d-9aea1bdd1cfc",
+          "width": 11,
+          "x": 439,
+          "y": 86,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "085b59c1-9312-410f-a89a-44755a6ca94d",
+          "width": 249,
+          "x": 438,
+          "y": 83,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 18,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "e6a24882-df4c-4ba6-a110-81ca99643519",
+          "width": 41,
+          "x": 466,
+          "y": 192,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "117e8d85-e603-4617-b8cb-e20b78daef01",
+          "width": 92,
+          "x": 347,
+          "y": 58,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Limite",
+          "persistentUuid": "c5260ca8-d3f1-43d3-8c38-3ea5f7597752",
+          "width": 92,
+          "x": 203,
+          "y": 50,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -33024,6 +34874,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -33100,6 +34955,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -33480,6 +35339,14 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "ButtonAnimationName",
+          "type": "ButtonStates::ButtonAnimationName"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -33502,6 +35369,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -34733,6 +36604,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -35964,6 +37839,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -37195,6 +39074,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -38426,6 +40309,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -39657,6 +41544,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -40888,6 +42779,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -42119,6 +44014,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -43350,6 +45249,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -44664,6 +46567,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -45895,6 +47802,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     },
@@ -46756,6 +48667,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
         }
       ]
     }
