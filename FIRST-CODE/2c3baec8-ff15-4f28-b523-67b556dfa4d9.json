@@ -1401,6 +1401,87 @@
         "name": "Tileset13",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tileset14.png\"}",
+        "name": "Tileset14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tileset15.png\"}",
+        "name": "Tileset15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset16",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset18",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset19",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tileset20.png\"}",
+        "name": "Tileset20",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tileset21.png\"}",
+        "name": "Tileset21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tileset1",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14850,7 +14931,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998329979,
+        "zoomFactor": 0.6040838749988962,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14868,7 +14949,7 @@
           "width": 100,
           "x": 46,
           "y": 1139,
-          "zOrder": 1,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14885,7 +14966,7 @@
           "width": 49,
           "x": 1,
           "y": 1,
-          "zOrder": 2,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14902,7 +14983,7 @@
           "width": 49,
           "x": 335,
           "y": 893,
-          "zOrder": 2,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14919,7 +15000,7 @@
           "width": 54,
           "x": 332,
           "y": -334,
-          "zOrder": 2,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14928,15 +15009,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1221,
+          "height": 1222,
           "keepRatio": true,
           "layer": "",
           "name": "Limite",
           "persistentUuid": "6ddd93eb-7945-44dc-8bc9-c6728e4149ad",
           "width": 46,
           "x": 676,
-          "y": 54,
-          "zOrder": 2,
+          "y": 53,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14970,7 +15051,7 @@
           "width": 41,
           "x": 587,
           "y": 129,
-          "zOrder": 6,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14987,7 +15068,449 @@
           "width": 41,
           "x": 182,
           "y": 1140,
-          "zOrder": 6,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1407,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset4",
+          "persistentUuid": "9106977e-8d99-4650-981a-a22dc50fa145",
+          "width": 943,
+          "x": -71,
+          "y": -63,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 117,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset3",
+          "persistentUuid": "f9c1f5ec-afd6-49bb-a7ce-afc06126d718",
+          "width": 131,
+          "x": -21,
+          "y": -3,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1300,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TilsetDere2",
+          "persistentUuid": "2abca073-4253-441b-85de-5aea89eb873e",
+          "width": 113,
+          "x": -14,
+          "y": -27,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset2",
+          "persistentUuid": "ee8ff69b-fcc6-4286-8a14-c1a6c8ea4332",
+          "width": 879,
+          "x": -128,
+          "y": 1188,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 117,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset3",
+          "persistentUuid": "7ff5ffa3-7674-4d58-b87f-70e8916b343a",
+          "width": 131,
+          "x": 609,
+          "y": -11,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 117,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset3",
+          "persistentUuid": "2d9324ae-a355-4850-9871-1e02104c48e2",
+          "width": 131,
+          "x": -14,
+          "y": 1176,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 117,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset3",
+          "persistentUuid": "8f38c2a6-c143-4fd4-8b30-40e91059dffc",
+          "width": 131,
+          "x": 617,
+          "y": 1170,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 107,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset2",
+          "persistentUuid": "026dc511-18c7-476b-ab50-ccb7b93a6d9d",
+          "width": 879,
+          "x": -9,
+          "y": -11,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 1300,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TilsetDere2",
+          "persistentUuid": "fd35ba31-4840-469a-80e1-f94ca474da37",
+          "width": 112,
+          "x": 627,
+          "y": 7,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset6Prueba",
+          "persistentUuid": "1fadd488-3010-4dac-8f56-c71b5437ce1c",
+          "width": 46,
+          "x": 910,
+          "y": 930,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset5",
+          "persistentUuid": "c6e1bc70-7769-4f1c-bcc7-1003a6ff68dc",
+          "width": 92,
+          "x": 498,
+          "y": 861,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset6Prueba",
+          "persistentUuid": "16aa28fe-2d2b-41e7-bde6-488059b90c01",
+          "width": 251,
+          "x": 354,
+          "y": 861,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset5",
+          "persistentUuid": "da29cb98-e0ed-4da8-9069-3009393f3f81",
+          "width": 92,
+          "x": 203,
+          "y": 1157,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset5",
+          "persistentUuid": "e2ca6529-8e32-4b20-9479-3a086511b939",
+          "width": 92,
+          "x": 203,
+          "y": 518,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset5",
+          "persistentUuid": "d9dae6dc-6a66-4aa1-ac19-54cdecbf4b55",
+          "width": 92,
+          "x": 322,
+          "y": 92,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset5",
+          "persistentUuid": "3f2b9728-60e4-4be4-ab9c-29eac15ec112",
+          "width": 92,
+          "x": 322,
+          "y": 834,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset5",
+          "persistentUuid": "639a56ce-2627-4972-9ed0-3c16692bc752",
+          "width": 92,
+          "x": 576,
+          "y": 444,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset5",
+          "persistentUuid": "90a991cf-11a3-4b87-b033-64dbddca6cca",
+          "width": 92,
+          "x": 448,
+          "y": 444,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset5",
+          "persistentUuid": "f4f17ece-4e00-4010-a936-e1362c66ddff",
+          "width": 92,
+          "x": 888,
+          "y": 784,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset6Prueba",
+          "persistentUuid": "1b34d5fa-0b12-4bff-a143-f640cec48d2b",
+          "width": 794,
+          "x": -148,
+          "y": 803,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset6Prueba",
+          "persistentUuid": "b8820df2-79cd-43d5-83a4-6f490dc25be5",
+          "width": 934,
+          "x": -99,
+          "y": 422,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset6Prueba",
+          "persistentUuid": "765f002b-34be-460c-8d8e-1a21adac983c",
+          "width": 138,
+          "x": 504,
+          "y": 444,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 7,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset4",
+          "persistentUuid": "d44513ba-089a-4757-9ad9-2088f5dc8401",
+          "width": 129,
+          "x": 495,
+          "y": 459,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 7,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset4",
+          "persistentUuid": "4b27f61f-8d10-4dee-bdb5-60008ea368f9",
+          "width": 234,
+          "x": 337,
+          "y": 876,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 854,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset4",
+          "persistentUuid": "88a83ee9-5353-4218-8ea3-d8c2358ec8fa",
+          "width": 7,
+          "x": 364,
+          "y": 60,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 752,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tilset4",
+          "persistentUuid": "90723c0c-47a9-45c8-a4a4-26ce5adf39d7",
+          "width": 9,
+          "x": 244,
+          "y": 487,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15546,6 +16069,67 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
+          "name": "Tilset2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Tileset",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Tileset16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 2
+                          },
+                          {
+                            "x": 31,
+                            "y": 2
+                          },
+                          {
+                            "x": 31,
+                            "y": 25
+                          },
+                          {
+                            "x": 4,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
           "name": "Tilset3",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -15564,7 +16148,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tileset12",
+                      "image": "Tileset17",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15580,20 +16164,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 7
+                            "x": 6,
+                            "y": 4
                           },
                           {
-                            "x": 93,
-                            "y": 7
+                            "x": 30,
+                            "y": 4
                           },
                           {
-                            "x": 93,
-                            "y": 80
+                            "x": 30,
+                            "y": 29
                           },
                           {
-                            "x": 3,
-                            "y": 80
+                            "x": 6,
+                            "y": 29
                           }
                         ]
                       ]
@@ -15625,7 +16209,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tileset12",
+                      "image": "Tileset18",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15641,20 +16225,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 7
+                            "x": 5,
+                            "y": 3
                           },
                           {
-                            "x": 93,
-                            "y": 7
+                            "x": 33,
+                            "y": 3
                           },
                           {
-                            "x": 93,
-                            "y": 80
+                            "x": 33,
+                            "y": 37
                           },
                           {
-                            "x": 3,
-                            "y": 80
+                            "x": 5,
+                            "y": 37
                           }
                         ]
                       ]
@@ -15686,7 +16270,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tileset12",
+                      "image": "Tileset21",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15702,20 +16286,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 7
+                            "x": 1,
+                            "y": 1
                           },
                           {
-                            "x": 93,
-                            "y": 7
+                            "x": 44,
+                            "y": 1
                           },
                           {
-                            "x": 93,
-                            "y": 80
+                            "x": 44,
+                            "y": 23
                           },
                           {
-                            "x": 3,
-                            "y": 80
+                            "x": 1,
+                            "y": 23
                           }
                         ]
                       ]
@@ -15729,7 +16313,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Tilset6",
+          "name": "Tilset6Prueba",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -15737,7 +16321,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Tileset",
+              "name": "Tileset1",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -15747,7 +16331,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tileset12",
+                      "image": "Tileset1",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15763,264 +16347,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 7
+                            "x": 2,
+                            "y": 2
                           },
                           {
-                            "x": 93,
-                            "y": 7
+                            "x": 25,
+                            "y": 2
                           },
                           {
-                            "x": 93,
-                            "y": 80
+                            "x": 25,
+                            "y": 22
                           },
                           {
-                            "x": 3,
-                            "y": 80
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Tilset7",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Tileset",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Tileset12",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 7
-                          },
-                          {
-                            "x": 93,
-                            "y": 7
-                          },
-                          {
-                            "x": 93,
-                            "y": 80
-                          },
-                          {
-                            "x": 3,
-                            "y": 80
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Tilset8",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Tileset",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Tileset12",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 7
-                          },
-                          {
-                            "x": 93,
-                            "y": 7
-                          },
-                          {
-                            "x": 93,
-                            "y": 80
-                          },
-                          {
-                            "x": 3,
-                            "y": 80
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Tilset9",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Tileset",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Tileset12",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 7
-                          },
-                          {
-                            "x": 93,
-                            "y": 7
-                          },
-                          {
-                            "x": 93,
-                            "y": 80
-                          },
-                          {
-                            "x": 3,
-                            "y": 80
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Tilset10",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Tileset",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Tileset12",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 7
-                          },
-                          {
-                            "x": 93,
-                            "y": 7
-                          },
-                          {
-                            "x": 93,
-                            "y": 80
-                          },
-                          {
-                            "x": 3,
-                            "y": 80
+                            "x": 2,
+                            "y": 22
                           }
                         ]
                       ]
@@ -16063,6 +16403,9 @@
             "objectName": "TilsetDere2"
           },
           {
+            "objectName": "Tilset2"
+          },
+          {
             "objectName": "Tilset3"
           },
           {
@@ -16072,19 +16415,7 @@
             "objectName": "Tilset5"
           },
           {
-            "objectName": "Tilset6"
-          },
-          {
-            "objectName": "Tilset7"
-          },
-          {
-            "objectName": "Tilset8"
-          },
-          {
-            "objectName": "Tilset9"
-          },
-          {
-            "objectName": "Tilset10"
+            "objectName": "Tilset6Prueba"
           }
         ]
       },
