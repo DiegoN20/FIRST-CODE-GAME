@@ -5338,6 +5338,16 @@
           "conditions": [
             {
               "type": {
+                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
+              },
+              "parameters": [
+                "TransparentLightJoystick",
+                "\"Up\"",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "TopDownMovementBehavior::IsMoving"
               },
               "parameters": [
@@ -5347,6 +5357,17 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "SOLDADO",
+                "Animation",
+                "=",
+                "1+round(SOLDADO.TopDownMovement::Angle()/90)"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
